@@ -63,5 +63,19 @@
     width: 300px ;
     position: absolute;
     right: -110px;
-    top:500px;
+    top:350px;
+}
+
+.columns {
+    padding-top: 20px;
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    width: 100vw;
+    
+}
+
+.column {
+    padding: 0px 30px 0px 30px;
+
 }
