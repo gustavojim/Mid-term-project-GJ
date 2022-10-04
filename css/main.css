@@ -3,6 +3,7 @@
 @import url(/css/bulma/css-bulma/bulma.css);
 @import url(/css/navbar.css);
 @import url(/css/hero.css);
+@import url(/css/projects.css);
 
 /*
 
@@ -19,8 +20,11 @@ Yellow FFC600
 */
 
 html {
-    background-color:#F2F4FC !important;
-    margin: 0; 
+    background-color:#F2F4FC;
+}
+
+body {
+    margin: 0;
     padding: 0;
 }
 

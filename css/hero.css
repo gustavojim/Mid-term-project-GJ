@@ -22,8 +22,9 @@
     background-color: transparent;
     border-radius: 0 !important;
     color:#292E47 !important;
-    padding: 25px 30px 25px 30px  !important;
+    padding: 25px 30px 25px 15px  !important;
     margin-top: 30px;
+    margin-left: -15px;
     border: none;
 }
 
@@ -50,9 +51,11 @@
 .hero-image {
     width: 560px;
     position: relative;
+    display: inline-block;
 }
 
 .card-1 {
+    display: inline-block;
     position: absolute;
     width: 300px;
     left: -90px;
@@ -60,22 +63,26 @@
 }
 
 .card-2 {
+    display: inline-block;
     width: 300px ;
     position: absolute;
     right: -110px;
-    top:350px;
+    top:450px;
 }
 
 .columns {
-    padding-top: 20px;
+    padding-top: 80px;
     display: flex;
-    justify-items: center;
-    align-content: center;
+    justify-content:center;
     width: 100vw;
+    padding-right: 70px;
+    padding-left: 70px;
+    
     
 }
 
 .column {
-    padding: 0px 30px 0px 30px;
-
+    padding: 60px 25px 50px 30px;
+    
 }
+

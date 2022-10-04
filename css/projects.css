@@ -1,0 +1,60 @@
+.projects {
+  padding: 200px 170px;
+  width: 100vw;
+}
+
+.recent {
+  padding-bottom: 70px;
+}
+
+.tile is-child-box {
+  padding: 0 !important;
+}
+
+.card-projects{
+  display: flex;
+  justify-content:space-between;
+  margin-right: 20px;
+
+}
+.card-image {
+  border-radius: 0rem;
+  background-color: white;
+  height: 470px;
+  padding: 0px;
+}
+.card-image img {
+  border-radius: 0rem;
+}
+.card-image:first-child img {
+  border-radius: 0rem;
+}
+.card-image:last-child img {
+  border-radius: 0rem;
+}
+.image-recent {
+  width: 340px;
+  height: 250px;
+}
+.text-a-card {
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.text-c-card {
+    font-size: 17px;
+    font-weight: 400;
+    padding-left: 30px;
+}
+.lear-btn {
+    background-color: transparent;
+    border-radius: 0 !important;
+    color: #072AC8 !important;
+    padding: 15px 0px 25px 15px  !important;
+    margin-top: 30px;
+    margin-left: 15px;
+    border: none;
+}
+   
