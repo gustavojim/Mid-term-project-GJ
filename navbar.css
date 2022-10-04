@@ -1,0 +1,30 @@
+.my-navbar{
+
+    border-bottom: none;
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    align-items: center;
+}
+
+.navbar-item{
+    color: #6B708D !important;
+    font-size: 17px !important;
+    font-weight: 700 !important;
+}
+
+.navbar-item:hover {
+    color:#072AC8!important;
+}
+
+.contacto-btn {
+    background-color: #072AC8;
+    border-radius: 0 !important;
+    color: white !important;
+    padding: 25px 30px 25px 30px  !important;
+}
+
+contacto-btn:hover{
+    color:#072AC8! important;
+}
+
