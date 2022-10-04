@@ -1,0 +1,67 @@
+
+.hero {
+    margin: 0px 0px 0px 80px !important;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.hero-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-info {
+    width: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.work-btn {
+    background-color: transparent;
+    border-radius: 0 !important;
+    color:#292E47 !important;
+    padding: 25px 30px 25px 30px  !important;
+    margin-top: 30px;
+    border: none;
+}
+
+.get-btn {
+    background-color: #072AC8;
+    border-radius: 0 !important;
+    color: white !important;
+    padding: 25px 30px 25px 30px !important;
+    margin-top: 30px;
+}
+
+.get-btn:hover{
+    background-color:#292E47;
+}
+
+.hero-pictures {
+    position: relative;
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    margin-right: 100px;
+}
+
+.hero-image {
+    width: 560px;
+    position: relative;
+}
+
+.card-1 {
+    position: absolute;
+    width: 300px;
+    left: -90px;
+
+}
+
+.card-2 {
+    width: 300px ;
+    position: absolute;
+    right: -110px;
+    top:500px;
+}
