@@ -1,4 +1,11 @@
 
+footer {
+    height: 300px;
+    margin: 50px ;
+    padding: 120px 120px;
+    display:flex;
+}
+
 
 .email-form {
     background-color: #FFC600 ;
@@ -41,12 +48,6 @@
     color: white;
 }
 
-footer {
-    height: 300px;
-    margin: 50px ;
-    padding: 120px 120px;
-    display:flex;
-}
 
 .address {
     width: 250px;

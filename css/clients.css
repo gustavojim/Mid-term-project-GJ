@@ -1,0 +1,46 @@
+
+.clients {
+    background-image: url("/Images/testimonial-section/orbit.png");
+    background-color:#292e47;
+    background-size:cover;
+    background-repeat: no-repeat;
+	background-position: center;
+    height: 622px;
+    margin: 50px ;
+    padding: 200px 120px 100px 120px;
+    display:flex;
+    justify-content: center;
+    flex-direction:column;   
+}
+
+.text-client {
+    color: white;
+    padding-bottom: 8rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.sub-client {
+    color: #FFC600;
+    text-align: center;
+}
+
+.titles-clients {
+    padding-left: 10rem;
+    padding-right:10rem;
+}
+
+.profile {
+    display:flex;
+    justify-content:center;
+    padding-top: 10rem;
+
+    
+}
+
+.image-client {
+    width: 50px;
+	height: 50px;
+	border-radius: 50%;
+    margin-right: 15px;
+}
