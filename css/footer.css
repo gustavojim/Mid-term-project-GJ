@@ -40,3 +40,24 @@
     background-color:#292E47;
     color: white;
 }
+
+footer {
+    height: 300px;
+    margin: 50px ;
+    padding: 120px 120px;
+    display:flex;
+}
+
+.address {
+    width: 250px;
+}
+
+.logo-footer {
+    width: 100px;
+}
+
+.text-footer {
+color: #072ac8 !important;
+font-weight: 500 !important;
+padding: 0px 30px 30px 30px ;
+}
