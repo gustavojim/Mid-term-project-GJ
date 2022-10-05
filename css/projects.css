@@ -1,5 +1,5 @@
 .projects {
-  padding: 200px 170px;
+  padding: 200px 140px;
   width: 100vw;
 }
 
@@ -7,22 +7,30 @@
   padding-bottom: 70px;
 }
 
-.tile is-child-box {
-  padding: 0 !important;
-}
-
-.card-recent{
+.card-recent {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   margin-right: 20px;
 }
+
 .card-icon-recent {
   border-radius: 0rem;
   background-color: white;
   height: 400px;
   padding-top: 60px;
-
 }
+
+.card-projects {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.card-image {
+  background-color: white;
+  padding-bottom: 35px;
+}
+
 .card-image img {
   border-radius: 0rem;
 }
@@ -37,27 +45,25 @@
   height: 250px;
 }
 .text-a-card {
-    font-size: 24px;
-    font-weight: 700 !important;
-    padding-top: 30px;
-    padding-left: 30px;
+  font-size: 24px;
+  font-weight: 700 !important;
+  padding-top: 30px;
+  padding-left: 30px;
 }
 
 .text-c-card {
-    font-size: 17px;
-    font-weight: 400;
-    padding-left: 30px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.25rem;
+  padding-left: 30px;
 }
 
 .lear-btn {
-    background-color: transparent;
-    border-radius: 0 !important;
-    color: #072AC8 !important;
-    padding: 35px 0px 35px 15px  !important;
-    margin-top: 30px;
-    margin-left: 15px;
-    border: none;
+  background-color: transparent;
+  border-radius: 0 !important;
+  color: #072ac8 !important;
+  padding: 35px 0px 35px 15px !important;
+  margin-top: 30px;
+  margin-left: 15px;
+  border: none;
 }
-
-
-   

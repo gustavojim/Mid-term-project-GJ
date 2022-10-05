@@ -1,0 +1,42 @@
+
+
+.email-form {
+    background-color: #FFC600 ;
+    height: 500px;
+    margin: 50px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input {
+    margin-top: 40px;
+    border-radius: 0px;
+    padding: 35px 160px 35px 20px;
+    font-weight: 700;
+}
+
+.email-flex {
+    display: flex;
+    justify-content:space-between ;
+    flex-direction: row;
+    align-items: center;
+}
+
+.email {
+    background-color: #072ac8 ;
+    color: white;
+    border-radius: 0px;
+    border: none;
+    padding: 35px 100px 35px 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.email:hover{
+    background-color:#292E47;
+    color: white;
+}
