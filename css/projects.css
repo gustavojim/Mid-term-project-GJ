@@ -1,5 +1,5 @@
 .projects {
-  padding: 200px 140px;
+  padding: 200px 10px;
   width: 100vw;
 }
 
@@ -12,12 +12,16 @@
   justify-content: space-between;
   margin-right: 20px;
 }
+.article-projects {
+  background-color: white;
+  width: 400px;
+}
 
 .card-icon-recent {
   border-radius: 0rem;
   background-color: white;
   height: 400px;
-  padding-top: 60px;
+  padding-top: 60px; 
 }
 
 .card-projects {
@@ -27,8 +31,9 @@
 }
 
 .card-image {
-  background-color: white;
+  background-color: none;
   padding-bottom: 35px;
+
 }
 
 .card-image img {
@@ -41,7 +46,7 @@
   border-radius: 0rem;
 }
 .image-recent {
-  width: 340px;
+  width: 400px;
   height: 250px;
 }
 .text-a-card {

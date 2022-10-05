@@ -1,46 +1,79 @@
-
 .clients {
-    background-image: url("/Images/testimonial-section/orbit.png");
-    background-color:#292e47;
-    background-size:cover;
-    background-repeat: no-repeat;
-	background-position: center;
-    height: 622px;
-    margin: 50px ;
-    padding: 200px 120px 100px 120px;
-    display:flex;
-    justify-content: center;
-    flex-direction:column;   
+  background-image: url("/Images/testimonial-section/orbit.png");
+  background-color: #292e47;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 50px;
+  padding-top: 100px;
+ 
 }
 
 .text-client {
-    color: white;
-    padding-bottom: 8rem;
-    padding-top: 1rem;
-    text-align: center;
+  color: white;
+  padding-bottom: 6rem;
+  text-align: center;
+  position: relative;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.text-blue {
+    color: #A2D6F9;
+}
+
+.text-e-profile {
+    text-align: left;
 }
 
 .sub-client {
-    color: #FFC600;
-    text-align: center;
-}
-
-.titles-clients {
-    padding-left: 10rem;
-    padding-right:10rem;
+  color: #ffc600;
+  text-align: center;
+  padding-bottom: 40px;
+  position: relative;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .profile {
-    display:flex;
-    justify-content:center;
-    padding-top: 10rem;
-
-    
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  position: relative;
 }
 
 .image-client {
-    width: 50px;
-	height: 50px;
-	border-radius: 50%;
-    margin-right: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.figures-top {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: -550px;
+}
+
+.image-emoji-top-left {
+  width: 150px;
+}
+
+.image-emoji-top-right {
+  width: 150px;
+}
+
+.figures-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+}
+
+.image-emoji-botom-left {
+  width: 150px;
+}
+
+.image-emoji-bottom-right {
+  width: 150px;
 }
