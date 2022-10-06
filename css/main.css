@@ -1,12 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-@import url(css/bulma/css-bulma/bulma.css);
-@import url(css/navbar.css);
-@import url(css/hero.css);
-@import url(css/projects.css);
-@import url(css/services.css);
-@import url(css/footer.css);
-@import url(css/clients.css);
+@import url(./css/bulma/css-bulma/bulma.css);
+@import url(./css/navbar.css);
+@import url(./css/hero.css);
+@import url(./css/projects.css);
+@import url(./css/services.css);
+@import url(./css/footer.css);
+@import url(./css/clients.css);
 
 /*
 
