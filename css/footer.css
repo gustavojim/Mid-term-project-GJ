@@ -27,6 +27,12 @@ footer {
     font-weight: 700;
 }
 
+.fa-envelope {
+    margin-top: 110px;
+    
+    
+}
+
 .email-flex {
     display: flex;
     justify-content:space-between ;
