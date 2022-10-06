@@ -1,0 +1,50 @@
+.contact-base {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 100px;
+}
+
+.divider {
+    padding-top: 130px;
+}
+
+.phone-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.email-contact {
+    width: 49%;
+}
+
+.label-texto {
+    margin-bottom:-15px !important;
+    margin-top:15px !important;
+}
+
+.label-texto-a {
+    margin-bottom:20px !important;
+    margin-top:15px !important;
+}
+
+.textarea {
+background-color: #e3e7f0;
+}
+
+.input-contact {
+    background-color:  #e3e7f0;
+    color: #b6b6b6;
+}
+
+.msg-btn {
+    background-color: #072AC8 !important;
+    border-radius: 0 !important;
+    color: white !important;
+    padding: 25px 30px 25px 30px  !important;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.contacto-btn:hover{
+    background-color:#292E47;
+}
