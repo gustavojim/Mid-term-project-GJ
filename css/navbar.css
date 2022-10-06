@@ -18,8 +18,7 @@
 .navbar-item{
     color: #6B708D !important;
     font-size: 17px !important;
-    font-weight: 700 !important;
-
+    font-weight: 700 !important; 
 }
 
 .navbar-item:hover {
@@ -35,4 +34,30 @@
 
 .contacto-btn:hover{
     background-color:#292E47;
+}
+
+@media (max-width: 900px) {
+    .navbar-item {
+      display: none;
+    }
+  }
+
+.navbar-item-a {
+    display: flex;
+    flex-direction:column;
+
+    margin-top: 1%;
+    
+}
+
+.menu-enlaces {
+    width: 100px;
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 25%;
+    display: flex;
+    background-color: none;
+    padding: 10px;
+
+
 }

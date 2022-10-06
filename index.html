@@ -7,48 +7,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Circle Agency</title>
   <link rel="stylesheet" href="./css/main.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-</head>
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" </head>
 <body>
+
+  <!-- Barra navegación -->
 
   <nav class="navbar my-navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href="https://bulma.io">
+      <a class="navbar-item" href="./index.html">
         <img class="logo" src="Images/logos/circle.svg" />
       </a>
-
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
     </div>
+
+
 
     <div class="">
-      <div class="navbar-item">
-        <div class="field has-addons">
-          <a class="navbar-item"> Home </a>
-          <a class="navbar-item"> Projects </a>
-          <a class="navbar-item"> Services </a>
+      <div class="navbar-item ">
+        <div class="field has-addons" id="navMenu">
+          <a class="navbar-item" href="./index.html"> Home </a>
+          <a class="navbar-item" href="#projects"> Projects </a>
+          <a class="navbar-item" href="#services"> Services </a>
           <hr class="navbar-divider" />
         </div>
+      
       </div>
     </div>
+
+
     <div class="">
       <div class="navbar-item">
         <div class="buttons ">
-          <a class="button contacto-btn">
+          <a class="button contacto-btn" href="./contact.html">
             <strong>Contact Us</strong>
           </a>
         </div>
       </div>
     </div>
+<div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>   
+          <a id="navbar-item-a" class="navbar-item-a" href="./index.html"> Home </a>
+          <a id="navbar-item-a" class="navbar-item-a" href="#projects"> Projects </a>
+          <a id="navbar-item-a" class="navbar-item-a" href="#services"> Services </a>
+    </a>
+  </div>
   </nav>
 
-  
-  <div>
+  <!-- Hero -->
 
+  <div>
     <section class="hero is-fullheight">
       <div class="columns hero-body is-multiline">
         <div class="column hero-info">
@@ -68,7 +75,6 @@
             </a>
           </div>
         </div>
-
         <div class="column hero-pictures">
           <img class="hero-image" src="Images/hero-section/hero-image.png" />
           <img class="card-1" src="Images/hero-section/card-1.png" />
@@ -76,23 +82,21 @@
         </div>
       </div>
   </div>
-<div class="logo-center">
-  <div class="columns logos is-multiline">
-    <img class="column is-narrow " src="Images/logos/airbnb-logo.svg">
-
-    <img class="column is-narrow" src="Images/logos/google-logo.svg">
-
-    <img class="column is-narrow" src="Images/logos/microsoft-logo.svg">
-
-    <img class="column is-narrow" src="Images/logos/fedex-logo.svg">
-
-    <img class="column is-narrow" src="Images/logos/amazon-logo.svg">
+  <div class="logo-center">
+    <div class="columns logos is-multiline">
+      <img class="column is-narrow " src="Images/logos/airbnb-logo.svg">
+      <img class="column is-narrow" src="Images/logos/google-logo.svg">
+      <img class="column is-narrow" src="Images/logos/microsoft-logo.svg">
+      <img class="column is-narrow" src="Images/logos/fedex-logo.svg">
+      <img class="column is-narrow" src="Images/logos/amazon-logo.svg">
+    </div>
   </div>
-</div>
 
-  <section class="projects">
+  <!-- Projects -->
+
+  <section class="projects" id="projects">
     <h3 class="recent">Recent Projects</h3>
- 
+
     <div class="columns is-multiline card-projects">
       <div class=" column is-full-mobile is-two-fifths-tablet is-one-third-desktop card-image">
         <article class="article-projects">
@@ -131,92 +135,79 @@
 
   </section>
 
+  <!-- Testimonio -->
 
   <section class="section clients">
 
     <div class="titles-clients">
-    <h3 class="text-client">Hear What Our Clients Have to Say</h3>
-    <h4 class="sub-client">
-      "Circle helped us through every stage of our startup. We really enjoyed working with you."
-    </h4>
-    <div class="profile">
-    <img class="image-client" src="Images/testimonial-section/profile.png" />
-    <div class="text-client">
-    <h5 class="text-blue">Kristin Watson</h5>
-    <h6 class="text-e-profile">Booking.com</h6>
-  </div>
-  </div>
-  </div>
-<div class="figures-top">
-    <img class="image-emoji-top-left" src="Images/testimonial-section/memoji-1.png" />
+      <h3 class="text-client">Hear What Our Clients Have to Say</h3>
+      <h4 class="sub-client">
+        "Circle helped us through every stage of our startup. We really enjoyed working with you."
+      </h4>
+      <div class="profile">
+        <img class="image-client" src="Images/testimonial-section/profile.png" />
+        <div class="text-client">
+          <h5 class="text-blue">Kristin Watson</h5>
+          <h6 class="text-e-profile">Booking.com</h6>
+        </div>
+      </div>
+    </div>
+    <div class="figures-top">
+      <img class="image-emoji-top-left" src="Images/testimonial-section/memoji-1.png" />
 
-    <img class="image-emoji-bottom-right" src="Images/testimonial-section/memoji-4.png" />
-  </div>
+      <img class="image-emoji-bottom-right" src="Images/testimonial-section/memoji-4.png" />
+    </div>
     <div class="figures-bottom">
-    <img class="image-emoji-top-right" src="Images/testimonial-section/memoji-3.png" />
+      <img class="image-emoji-top-right" src="Images/testimonial-section/memoji-3.png" />
 
-    <img class="image-emoji-botom-left" src="Images/testimonial-section/memoji-2.png" />
-  </div>
+      <img class="image-emoji-botom-left" src="Images/testimonial-section/memoji-2.png" />
+    </div>
   </section>
 
+  <!-- Servicios -->
 
-
-
-
-
-
-
-
-
-
-  <section class=services>
+  <section class=services id="services">
     <h3 class="recent">Our Services</h3>
     <div class="columns is-multiline card-services">
       <div class="column is-full-mobile is-two-fifths-tablet is-one-third-desktop card-icon-services">
-
-          <span class="icon">
-            <div class="icon-one"></div>
-          </span>
-          <p class="text-a-card">User Interface Design</p>
-          <br>
-          <p class="text-c-card">Circle provides you with a stunning user interface design that is accessible to
-            everyone.</p>
-          <a class="button lear-btn-recent">
-            <strong>Lear more</strong>
-          </a>
-  
+        <span class="icon">
+          <div class="icon-one"></div>
+        </span>
+        <p class="text-a-card">User Interface Design</p>
+        <br>
+        <p class="text-c-card">Circle provides you with a stunning user interface design that is accessible to
+          everyone.</p>
+        <a class="button lear-btn-recent">
+          <strong>Lear more</strong>
+        </a>
       </div>
       <div class="column is-full-mobile is-two-fifths-tablet is-one-third-desktop card-icon-services">
-
-          <span class="icon">
-            <div class="icon-two"></div>
-          </span>
-          <p class="text-a-card">User Experience Design</p>
-          <br>
-          <p class="text-c-card">Circle always focuses on delivering the best user experience to your customers.</p>
-          <a class="button lear-btn-recent">
-            <strong>Lear more</strong>
-          </a>
-
+        <span class="icon">
+          <div class="icon-two"></div>
+        </span>
+        <p class="text-a-card">User Experience Design</p>
+        <br>
+        <p class="text-c-card">Circle always focuses on delivering the best user experience to your customers.</p>
+        <a class="button lear-btn-recent">
+          <strong>Lear more</strong>
+        </a>
       </div>
       <div class="column is-full-mobile is-two-fifths-tablet is-one-third-desktop card-icon-services">
- 
-          <span class="icon">
-            <div class="icon-third"></div>
-          </span>
-          <p class="text-a-card">Application Development</p>
-          <br>
-          <p class="text-c-card">We develop high-quality mobile and web applications using the latest technology stack.
-          </p>
-          <a class="button lear-btn-recent">
-            <strong>Lear more</strong>
-          </a>
-
+        <span class="icon">
+          <div class="icon-third"></div>
+        </span>
+        <p class="text-a-card">Application Development</p>
+        <br>
+        <p class="text-c-card">We develop high-quality mobile and web applications using the latest technology stack.
+        </p>
+        <a class="button lear-btn-recent">
+          <strong>Lear more</strong>
+        </a>
       </div>
     </div>
   </section>
 
-
+  <!-- Suscribirse -->
 
   <div class="email-form">
     <h3 class="">
@@ -227,9 +218,7 @@
     </h3>
     <br>
     <br>
-
     <div class="columns is-multiline email-flex">
-
       <div class="columns control has-icons-left">
         <input class="input" type="email" placeholder="Enter your email">
         <span class="icon is-small is-left">
@@ -237,33 +226,29 @@
         </span>
         <span class="icon is-small is-right">
         </span>
-
       </div>
-
       <div class="columns control">
         <button class="button email">Suscribe</button>
       </div>
-
     </div>
-
   </div>
-  
+
+  <!-- Footer -->
+
   <footer class="columns is-multiline">
     <div class="columns">
 
       <div class="address">
-      <img class="logo-footer" src="Images/logos/circle.svg" />
-      <br>
-      <br>
-      <h3 class="text-c">
-        2972 Westheimer Rd. Santa Ana, Illinois 85486
-      </h3>
-    </div>
-
-
+        <img class="logo-footer" src="Images/logos/circle.svg" />
+        <br>
+        <br>
+        <h3 class="text-c">
+          2972 Westheimer Rd. Santa Ana, Illinois 85486
+        </h3>
+      </div>
     </div class="columns">
     <div class=" footer-menu"">
-      <div class="field has-addons">
+      <div class=" field has-addons">
       <a class="navbar-item text-footer"> Team </a>
       <a class="navbar-item text-footer"> Services </a>
       <a class="navbar-item text-footer"> About Us </a>
@@ -274,27 +259,12 @@
       <a class="navbar-item text-footer"> Privacy Policy </a>
     </div>
     </div>
-  </div>
+    </div>
   </footer>
 
-
-
-
-  <!-- <h1>Hola que tal</h1> Esto es un comentario -->
-  <!--<h2>Hola que tal</h2>-->
-  <!--<h3>Hola que tal</h3>-->
-  <!--<h4>Hola que tal</h4>-->
-  <!--<p class="text-a">Hola que tal</p>-->
-  <!--<p class="text-b">Hola que tal</p>-->
-  <!--<p class="text-c">Hola que tal</p>-->
-  <!--<p class="text-d">Hola que tal</p>-->
-  <!--<p class="text-e">Hola que tal</p>-->
-  <!--<p class="text-f">Hola que tal</p>-->
-
-
   </div>
 
-  <script type="text/javascript" src="lib/main.js"></script>
+  <script type="text/javascript" src="./_javascript/main.js"></script>
 </body>
 
 </html>
