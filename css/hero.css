@@ -1,88 +1,83 @@
-
 .hero {
-    margin: 0px 0px 0px 80px !important;
-    flex-direction: column;
-    justify-content: left;
+  margin: 0px 0px 120px -100px !important;
+  display: flex;
+  align-items: center;
+  padding-bottom: 120px;
 }
 
 .hero-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 200px;
 }
 
 .hero-info {
-    width: 530px;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
+  width: 530px;
+  display: flex;
+  flex-direction: column;
 }
 
 .work-btn {
-    background-color: transparent;
-    border-radius: 0 !important;
-    color:#292E47 !important;
-    padding: 25px 30px 25px 15px  !important;
-    margin-top: 30px;
-    margin-left: -15px;
-    border: none;
+  background-color: transparent;
+  border-radius: 0 !important;
+  color: #292e47 !important;
+  padding: 25px 30px 25px 15px !important;
+  margin-top: 30px;
+  margin-left: -15px;
+  border: none;
 }
 
 .get-btn {
-    background-color: #072AC8;
-    border-radius: 0 !important;
-    color: white !important;
-    padding: 25px 30px 25px 30px !important;
-    margin-top: 30px;
+  background-color: #072ac8;
+  border-radius: 0 !important;
+  color: white !important;
+  padding: 25px 30px 25px 30px !important;
+  margin-top: 30px;
 }
 
-.get-btn:hover{
-    background-color:#292E47;
+.get-btn:hover {
+  background-color: #292e47;
 }
 
 .hero-pictures {
-    position: relative;
-    display: flex;
-    justify-content:center;
-    flex-direction: row;
-    margin-right: 100px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-right: -100px;
+  margin-bottom: 250px;
 }
 
 .hero-image {
-    width: 560px;
-    position: relative;
-    display: inline-block;
+  width: 560px;
+  position: absolute;
 }
 
 .card-1 {
-    display: inline-block;
-    position: absolute;
-    width: 300px;
-    left: -90px;
-
+  position: relative;
+  width: 300px;
+  height: 300px;
+  min-width: 300px;
+  left: -120px;
 }
 
 .card-2 {
-    display: inline-block;
-    width: 300px ;
-    position: absolute;
-    right: -110px;
-    top:450px;
-}
-
-.columns {
-    padding-top: 80px;
-    display: flex;
-    justify-content:center;
-    width: 100vw;
-    padding-right: 70px;
-    padding-left: 70px;
-      
+  width: 300px;
+  height: 300px;
+  min-width: 300px;
+  position: relative;
+  right: -100px;
+  top: 500px;
 }
 
 .logos {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    margin-left: 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  width: 70%;
+  margin-left: 13%
 }

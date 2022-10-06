@@ -1,41 +1,41 @@
 .projects {
   padding: 200px 10px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 10%;
+  width: 80%;
 }
 
 .recent {
   padding-bottom: 70px;
-  margin-left: 100px;
 }
 
 .card-recent {
   display: flex;
   justify-content: space-between;
-  margin-right: 20px;
+
 }
 .article-projects {
   background-color: white;
-  width: 400px;
+  width: 340px;
+
+
 }
 
 .card-icon-recent {
   border-radius: 0rem;
   background-color: white;
   height: 400px;
-  padding-top: 60px; 
+  padding-top: 60px;
 }
 
 .card-projects {
   display: flex;
   justify-content: space-between;
-  margin-right: 20px;
+
 }
 
 .card-image {
   background-color: none;
   padding-bottom: 35px;
-
 }
 
 .card-image img {
@@ -48,7 +48,7 @@
   border-radius: 0rem;
 }
 .image-recent {
-  width: 400px;
+  width: 350px;
   height: 250px;
 }
 .text-a-card {
@@ -56,6 +56,7 @@
   font-weight: 700 !important;
   padding-top: 30px;
   padding-left: 30px;
+
 }
 
 .text-c-card {

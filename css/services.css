@@ -1,22 +1,21 @@
 .services {
-  padding: 200px 140px;
-  width: 100vw;
-
+margin-left: 10%;
+width: 80%;
 }
 
 .recent {
   padding-bottom: 70px;
+
 }
 
 .card-icon-services {
   border-radius: 0rem;
   background-color: white;
-  height: 370px;
+  max-width: 340px;
+  height: 380px;
   padding: 50px 20px 0px 0px;
-  margin-left: 0px;
-  margin-right: 35px;
-  position: relative;
-  width: 33%;
+  margin: 10px;
+
 }
 
 .card-services {
@@ -29,7 +28,7 @@
   background-color: transparent;
   border-radius: 0 !important;
   color: #072ac8 !important;
-  padding: 15px 0px 25px 15px !important;
+  padding: 0px 0px 25px 15px !important;
   margin-top: 20px;
   margin-left: 15px;
   border: none;
@@ -37,7 +36,7 @@
 
 .icon-one {
   background-color: #ecf7ff;
-  background-image: url("./Images/services-section/icons/1.svg");
+  background-image: url("../Images/services-section/icons/1.svg");
   background-repeat: no-repeat;
   background-size: 40px;
   background-position: center;
@@ -52,7 +51,7 @@
 
 .icon-two {
   background-color: #ecf7ff;
-  background-image: url("/Images/services-section/icons/2.svg");
+  background-image: url("../Images/services-section/icons/2.svg");
   background-repeat: no-repeat;
   background-size: 40px;
   background-position: center;
@@ -67,7 +66,7 @@
 
 .icon-third {
   background-color: #ecf7ff;
-  background-image: url("/Images/services-section/icons/3.svg");
+  background-image: url("../Images/services-section/icons/3.svg");
   background-repeat: no-repeat;
   background-size: 40px;
   background-position: center;
