@@ -77,12 +77,12 @@
     width: 100vw;
     padding-right: 70px;
     padding-left: 70px;
-    
-    
+      
 }
 
-.column {
-    padding: 60px 25px 50px 30px;
-    
+.logos {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 8%;
 }
-
