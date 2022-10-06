@@ -37,7 +37,7 @@
 
 .icon-one {
   background-color: #ecf7ff;
-  background-image: url("/Images/services-section/icons/1.svg");
+  background-image: url("./Images/services-section/icons/1.svg");
   background-repeat: no-repeat;
   background-size: 40px;
   background-position: center;
