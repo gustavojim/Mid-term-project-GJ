@@ -11,38 +11,48 @@
 
 <body>
 
+ 
   <nav class="navbar my-navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item" href="./index.html">
         <img class="logo" src="Images/logos/circle.svg" />
       </a>
-
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
     </div>
 
-    <div class="">
-      <div class="navbar-item">
-        <div class="field has-addons">
+    <div>
+      <div class="navbar-item ">
+        <div class="field has-addons" id="navMenu">
           <a class="navbar-item" href="./index.html"> Home </a>
-          <a class="navbar-item" href="./index.html"> Projects </a>
-          <a class="navbar-item" href="./index.html"> Services </a>
+          <a class="navbar-item" href="#projects"> Projects </a>
+          <a class="navbar-item" href="#services"> Services </a>
           <hr class="navbar-divider" />
         </div>
+      
       </div>
     </div>
+
+
     <div class="">
       <div class="navbar-item">
         <div class="buttons ">
-          <a class="button contacto-btn">
+          <a class="button contacto-btn" href="./contact.html">
             <strong>Contact Us</strong>
           </a>
         </div>
       </div>
     </div>
+<div class="menu-tope">
+    <a href="javascript:void(0);" id="hamburguesa" class="icon hamburguesa" onclick="myFunction()">
+      <i class="fa fa-bars" id="fa-bars"></i>   
+    </a>
+    </div>
+      <div class="enlaces-ocultos">
+          <a class="navbar-item-a" style="display:none" href="./index.html"> Home </a>
+          <a class="navbar-item-a" style="display:none" href="#projects"> Projects </a>
+          <a class="navbar-item-a" style="display:none" href="#services"> Services </a>
+        </div>
+   
+
   </nav>
 
   <div class="divider">
@@ -56,16 +66,16 @@
     <div class="field ">
       <label class="label label-texto ">Full Name</label>
       <div class="control">
-        <input class="input input-contact" type="text" placeholder="Enter your full name">
+        <input class="input input-contact" id="full-name-form" type="text" placeholder="Enter your full name">
       </div>
     </div>
 
 
     <div class="field phone-text">
       <div class="field email-contact">
-        <label class="label label-texto">Email</label>
+        <label class="label label-texto"  >Email</label>
         <div class="control has-icons-left has-icons-right">
-          <input class="input input-contact" type="email" placeholder="Email input" value="Enter your email">
+          <input class="input input-contact" id="email-form" type="email" placeholder="Email input" value="Enter your email">
           <span class="icon is-small is-left">
             <i class="fas fa-envelope"></i>
           </span>
@@ -78,7 +88,7 @@
       <div class="field email-contact">
         <label class="label-texto label">Phone</label>
         <div class="control">
-          <input class="input input-contact" type="text" placeholder="Enter your phone">
+          <input class="input input-contact" id="phone-form" type="text" placeholder="Enter your phone">
         </div>
       </div>
     </div>
@@ -86,45 +96,47 @@
     <div class="field">
       <label class="label-texto-a label">Message</label>
       <div class="control">
-        <textarea class="textarea" placeholder="Write your message here..."></textarea>
+        <textarea class="textarea" id="msg-form" placeholder="Write your message here..."></textarea>
       </div>
     </div>
 
     <div class="control ">
-      <button class="msg-btn button is-link">Submit</button>
+      <button class="msg-btn button is-link" onclick="myForm()">Submit</button>
     </div>
-
+    <div class="ventana" id="ventana">
+    </div>
   </section>
 
 
-  <footer class="columns is-multiline">
-    <div class="columns">
-
+  <footer class="columns is-multiline todo-footer">
+    <div class="columns ">
       <div class="address">
         <img class="logo-footer" src="Images/logos/circle.svg" />
         <br>
         <br>
-        <h3 class="text-c">
-          2972 Westheimer Rd. Santa Ana, Illinois 85486
+        <h3 class="text-c">2972 Westheimer Rd. Santa Ana, Illinois 85486
         </h3>
       </div>
-
-
     </div class="columns">
-    <div class=" footer-menu"">
-      <div class=" field has-addons">
-      <a class="navbar-item text-footer"> Team </a>
-      <a class="navbar-item text-footer"> Services </a>
-      <a class="navbar-item text-footer"> About Us </a>
+    <div class="footer-menu"">
+      <div class="field has-addons">
+      <a class="text-footer"> Team </a>
+      <a class="text-footer"> Services </a>
+      <a class="text-footer"> About Us </a>
     </div>
-    <div class=" field has-addons">
-      <a class="navbar-item text-footer"> Press </a>
-      <a class="navbar-item text-footer"> Projects </a>
-      <a class="navbar-item text-footer"> Privacy Policy </a>
+    <div class="field has-addons">
+      <a class="text-footer"> Press </a>
+      <a class="text-footer"> Projects </a>
+      <a class="text-footer"> Privacy Policy </a>
     </div>
     </div>
     </div>
   </footer>
 
+
+  <script type="text/javascript" src="./_javascript/main.js"></script>
+  <script type="text/javascript" src="./_javascript/contact.js"></script>
+
 </body>
+
 </html>

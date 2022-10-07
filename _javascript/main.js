@@ -1,5 +1,6 @@
 function myFunction() {
   var x = document.getElementsByClassName("navbar-item-a");
+
   for (let i = 0; i < x.length; i++) {
 
     if (x[i].style.display === "block") {
@@ -8,4 +9,8 @@ function myFunction() {
       x[i].style.display = "block";
     }
   }
+  var y = document.getElementById("fa-bars");
+y.style.color = "red";
+
 }
+

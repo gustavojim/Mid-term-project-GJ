@@ -108,4 +108,10 @@
     justify-content: center;
     flex-direction: row;
   }
+  .card-1 {
+    opacity: 0;
+  }
+  .card-2 {
+    opacity: 0;
+  }
 }

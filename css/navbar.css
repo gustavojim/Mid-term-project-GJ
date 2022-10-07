@@ -41,8 +41,13 @@
 .navbar-item-a {
     display: flex;
     flex-direction:column;
-    margin-top: 1%;
+    margin-top: 5%;
+    text-decoration: underline;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    padding-right: 70px;
     
+   
 }
 
 .menu-enlaces {
@@ -54,6 +59,20 @@
     background-color: none;
     padding: 10px;
 }
+
+.enlaces-ocultos {
+    margin-top: 20%;
+    position: absolute;
+    margin-left: 80%;
+}
+
+
+.menu-tope {
+    position: absolute;
+    margin-left: 80%;
+
+}
+
 
 @media (max-width: 900px) {
     .navbar-item {
@@ -70,5 +89,19 @@
   @media (min-width: 900px) {
     .enlaces-ocultos {
         display: none;
+    }
+  }
+
+
+  @media (max-width: 900px) {
+    .enlaces-ocultos {
+     
+    margin-top:140px;
+    }
+    .menu-tope {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
   }
