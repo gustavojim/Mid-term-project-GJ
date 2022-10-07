@@ -82,5 +82,30 @@
   margin-left: 13%
 }
 
-
-
+@media (max-width: 900px) {
+  .amazon {
+     display: none;
+  }
+  .logos {
+    margin-top: -100px;
+  margin-left: 15%;
+  }
+  .logo-a {
+    padding: 20px;
+  }
+  .hero-pictures {
+    margin-left: -15%;
+  }
+  .hero-info {
+    margin-top: -15%;
+    margin-left: 22%;
+  }
+  .title-principal {
+    font-size: 40px !important;
+  }
+  .botones {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+}

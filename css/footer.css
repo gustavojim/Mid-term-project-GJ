@@ -73,3 +73,38 @@ color: #072ac8 !important;
 font-weight: 500 !important;
 padding: 0px 30px 30px 30px ;
 }
+
+.text-footer:hover{
+    background-color:none !important;
+    text-decoration: none !important;
+}
+
+@media (max-width: 900px) {
+    h3  {
+    text-align: center;
+    }
+    h1  {
+        text-align: center;
+        }
+    .todo-footer {
+        margin-left: -15%;
+        
+    }
+    .address {
+        margin-left: 0%; 
+        margin-top: -10%;
+        margin-bottom: 10%; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .email-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+
+
+  
+  

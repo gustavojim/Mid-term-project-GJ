@@ -19,6 +19,7 @@
     color: #6B708D !important;
     font-size: 17px !important;
     font-weight: 700 !important; 
+    margin-left: 5%;
 }
 
 .navbar-item:hover {
@@ -29,23 +30,17 @@
     background-color: #072AC8;
     border-radius: 0 !important;
     color: white !important;
-    padding: 25px 30px 25px 30px  !important;
+    padding: 25px 30px 25px 30px !important;
+    margin-left: 35%;
 }
 
 .contacto-btn:hover{
     background-color:#292E47;
 }
 
-@media (max-width: 900px) {
-    .navbar-item {
-      display: none;
-    }
-  }
-
 .navbar-item-a {
     display: flex;
     flex-direction:column;
-
     margin-top: 1%;
     
 }
@@ -58,6 +53,22 @@
     display: flex;
     background-color: none;
     padding: 10px;
-
-
 }
+
+@media (max-width: 900px) {
+    .navbar-item {
+      display: none;
+    }
+  }
+
+  @media (min-width: 900px) {
+    .hamburguesa {
+        display: none;
+    }
+  }
+
+  @media (min-width: 900px) {
+    .enlaces-ocultos {
+        display: none;
+    }
+  }

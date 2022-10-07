@@ -5,17 +5,16 @@
   background-repeat: no-repeat;
   background-position: center;
   margin: 50px;
-  padding-top: 100px;
- 
+  padding-top: 60px;
+  min-height: 600px;
 }
 
 .text-client {
   color: white;
-  padding-bottom: 6rem;
   text-align: center;
   position: relative;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .text-blue {
@@ -33,12 +32,15 @@
   position: relative;
   padding-left: 20%;
   padding-right: 20%;
+  margin-top: 50px;
+
 }
 
 .profile {
   display: flex;
   justify-content: center;
-  padding-top: 60px;
+  align-items: center;
+margin-top: 50px;
   position: relative;
 }
 
@@ -47,13 +49,14 @@
   height: 50px;
   border-radius: 50%;
   position: relative;
+
 }
 
 .figures-top {
   display: flex;
   justify-content: space-between;
   position: relative;
-  margin-top: -550px;
+  margin-top: -350px;
 }
 
 .image-emoji-top-left {
@@ -77,3 +80,34 @@
 .image-emoji-bottom-right {
   width: 150px;
 }
+
+
+
+
+@media (max-width: 900px) {
+  .image-emoji-top-left  {
+      display: none;
+  }
+  .image-emoji-top-right  {
+    display: none;
+}  .image-emoji-botom-left  {
+  display: none;
+}  .image-emoji-bottom-right  {
+  display: none;
+}
+.sub-client {
+  margin-top: 0px;
+}
+.profile {
+  margin-top: -20px;
+}
+.text-client {
+  margin-top: -0px;
+}
+.section {
+  margin-top: -150px;
+}
+}
+
+
+
